@@ -4,7 +4,7 @@ GrowingIO tracking for GitBook
 You can use install it via **NPM**:
 
 ```
-$ npm install https://github.com/Liu-Huaqing/gitbook-plugin-growingio
+$ npm install gitbook-plugin-growingio
 ```
 
 And use it for your book with in the book.json:
