@@ -1,11 +1,14 @@
 require(["gitbook"], function(gitbook) {
     // Load growingio script
     gitbook.events.bind("start", function(e, config) {
-        var cmds = config.cmds || [];
+        var cmds = [];
+        if (config.growingio && config.growingio.cmds) {
+          cmds = config.growingio.cmds;
+        }
+
         var _vds = _vds || [];
         window._vds = _vds;
         (function(){
-
           for(var i=0; i<cmds.length; i++) {
             _vds.push(cmds[i]);
           }
