@@ -16,9 +16,9 @@
     },
     "gitbook": {
     	"properties": {
-    		"account-id": {
-    			"type": "string",
-    			"title": "GrowingIO Account ID",
+    		"cmds": {
+    			"type": "array",
+    			"title": "GrowingIO cmds list",
     			"required": true
     		}
     	}
