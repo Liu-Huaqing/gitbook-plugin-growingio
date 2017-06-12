@@ -1,11 +1,15 @@
 require(["gitbook"], function(gitbook) {
     // Load growingio script
     gitbook.events.bind("start", function(e, config) {
-        var growingio = config.growingio;
+        var cmds = config.cmds || [];
         var _vds = _vds || [];
         window._vds = _vds;
         (function(){
-          _vds.push(['setAccountId', growingio['account-id']]);
+
+          for(var i=0; i<cmds.length; i++) {
+            _vds.push(cmds[i]);
+          }
+
           (function() {
             var vds = document.createElement('script');
             vds.type='text/javascript';
