@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-growingio",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "GrowingIO tracking for your gitbook",
   "engines": {
     "gitbook": ">=2.5.1"
