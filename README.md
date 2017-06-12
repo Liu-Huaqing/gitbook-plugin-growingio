@@ -22,7 +22,7 @@ You can set the GrowingIO account ID using the plugins configuration in the book
     "plugins": ["growingio"],
     "pluginsConfig": {
         "growingio": {
-            "account-id": "ACCOUNT-ID-XX-Y"
+            "cmds": [["setAccountId", "XXXXX"], ["setTrackerHost", "XXXXX"]]
         }
     }
 }
