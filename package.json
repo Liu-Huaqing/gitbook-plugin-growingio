@@ -1,26 +1,26 @@
 {
-    "name": "gitbook-plugin-growingio",
-    "version": "0.6.1",
-    "description": "GrowingIO tracking for your gitbook",
-    "engines": {
-        "gitbook": ">=2.5.1"
-    },
-    "homepage": "https://github.com/Liu-Huaqing/gitbook-plugin-growingio",
-    "repository": {
-    	"type": "git",
-        "url": "https://github.com/Liu-Huaqing/gitbook-plugin-growingio"
-    },
-    "license": "Apache-2.0",
-    "bugs": {
-        "url": "https://github.com/Liu-Huaqing/gitbook-plugin-growingio/issues"
-    },
-    "gitbook": {
-    	"properties": {
-    		"cmds": {
-    			"type": "array",
-    			"title": "GrowingIO cmds list",
-    			"required": true
-    		}
-    	}
+  "name": "gitbook-plugin-growingio",
+  "version": "0.6.2",
+  "description": "GrowingIO tracking for your gitbook",
+  "engines": {
+    "gitbook": ">=2.5.1"
+  },
+  "homepage": "https://github.com/Liu-Huaqing/gitbook-plugin-growingio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Liu-Huaqing/gitbook-plugin-growingio"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Liu-Huaqing/gitbook-plugin-growingio/issues"
+  },
+  "gitbook": {
+    "properties": {
+      "cmds": {
+        "type": "array",
+        "title": "GrowingIO cmds list",
+        "required": true
+      }
     }
+  }
 }
